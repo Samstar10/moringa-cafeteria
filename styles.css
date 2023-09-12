@@ -44,7 +44,7 @@ li{
 .items{
     background-color: coral;
     color: #333;
-    padding: 20px;
+    padding: 10px;
     margin: 10px;
     text-align: 50px;
 }
@@ -78,3 +78,26 @@ footer{
 }
 /* Exercise 8: Responsive Design (15 minutes) */
 /* Make the website responsive by using media queries to adjust styling for different screen sizes. */
+@media screen and (max-width: 420px){
+    header{
+        font-size: 10px;
+    }
+    .nav-bar{
+        display: none;
+    }
+    .hero{
+        font-size: 12px;
+    }
+    .items{
+        font-size: 12px;
+    }
+    .items ul{
+        padding: 0;
+    }
+    .about{
+        font-size: 12px;
+    }
+    form{
+        font-size: 12px;
+    }
+}
