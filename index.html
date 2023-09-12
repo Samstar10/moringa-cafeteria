@@ -5,32 +5,86 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restaurant Name</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
     <!-- Exercise 1: Header (5 minutes) -->
     <!-- Create a header section with the restaurant's name and navigation menu. -->
-
     <!-- Exercise 2: Navigation Menu (5 minutes) -->
     <!-- Create a navigation menu with links to Home, Menu, About Us, and Contact pages. -->
+    <header>
+        <h1>Razzle Dazzle with Mulizzle</h1>
+        <nav class="menu">
+            <ul class="nav-bar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
     <!-- Exercise 3: Hero Section (5 minutes) -->
     <!-- Add a hero section with an image and a welcoming message. -->
-
-    <!-- Exercise 4: Menu Section (10 minutes) -->
-    <!-- Create a menu section with at least three food items. Include the name and description of each item. -->
-
-    <!-- Exercise 5: About Us Section (5 minutes) -->
-    <!-- Create an "About Us" section with a brief description of the restaurant. -->
-
-    <!-- Exercise 6: Contact Section (10 minutes) -->
-    <!-- Add a "Contact Us" section with a contact form (name, email, message) and the restaurant's address. -->
-
+    <div class="container">
+        <section class="hero">
+            <img src="" alt="">
+            <h2>Experience the Razzle Dazzle with Mulizzle.</h2>
+        </section>
+        <!-- Exercise 4: Menu Section (10 minutes) -->
+        <!-- Create a menu section with at least three food items. Include the name and description of each item. -->
+        <section class="items">
+            <h3>Our Menu</h3>
+            <ul>
+                <li>
+                    <h4>Omena</h4>
+                    <p>Anchovy Bokkeum served with cornmeal mush</p>
+                </li>
+                <li>
+                    <h4>Succotash</h4>
+                    <p>A mixture of maize and beans</p>
+                </li>
+                <li>
+                    <h4>Yams</h4>
+                    <p>Served with a stew of your own choice</p>
+                </li>
+                <li>
+                    <h4>Uji Power</h4>
+                    <p>This is porridge containing yams, groundnuts, pumpkin seeds, honey, arrowroots and milk.</p>
+                </li>
+            </ul>
+        </section>
+        <!-- Exercise 5: About Us Section (5 minutes) -->
+        <!-- Create an "About Us" section with a brief description of the restaurant. -->
+        <section class="about">
+            <h4>About Us</h4>
+            <p>If you're looking to experience Africa through your mouth you are at the right place</p>
+        </section>
+        <!-- Exercise 6: Contact Section (10 minutes) -->
+        <!-- Add a "Contact Us" section with a contact form (name, email, message) and the restaurant's address. -->
+        <section>
+            <form action="">
+                <label for="name">Name</label>
+                <input type="email" id="email" placeholder="Enter Your Name">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Enter Your Email">
+                <label for="comments">Comments</label>
+                <textarea name="comments" id="comments" cols="30" rows="10" placeholder="Give us a comment"></textarea>
+            </form>
+        </section>
+    </div>
     <!-- Exercise 7: Footer (5 minutes) -->
     <!-- Create a footer section with a copyright notice. -->
-
+    <footer>
+        <p>&copy; <span id="date"></span>
+            <span class="footer-logo">Razzle Dazzle with Mulizzle</span>
+            Built by Muli Samuel
+        </p>
+    </footer>
     <!-- Exercise 8: CSS Styling (15 minutes) -->
     <!-- Create an external CSS file (styles.css) and link it here to style your website. -->
+    <script src="./index.js"></script>
 </body>
 
 </html>

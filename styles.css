@@ -2,24 +2,79 @@
 
 /* Exercise 1: Header Styling (5 minutes) */
 /* Style the header section, including background color, text color, and font size. */
-
+header{
+    background-color: #e2d8d8;
+    color: #333;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.container{
+    margin: auto 50px;
+}
 /* Exercise 2: Navigation Menu Styling (5 minutes) */
 /* Style the navigation menu links, including text color, font size, and hover effects. */
+.menu a{
+    color: #333;
+    font-size: 16px;
+}
+.nav-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+li{
+    margin: 40px;
+}
 
+.menu a:hover{
+    color: rgb(73, 91, 91);
+}
 /* Exercise 3: Hero Section Styling (5 minutes) */
 /* Style the hero section, including the background image, text color, and alignment. */
-
+.hero{
+    color: #333;
+    text-align: center;
+    padding: 50px;
+}
 /* Exercise 4: Menu Section Styling (10 minutes) */
 /* Style the menu section, including food item boxes, text color, background color, and spacing. */
-
+.items{
+    background-color: coral;
+    color: #333;
+    padding: 20px;
+    margin: 10px;
+    text-align: 50px;
+}
+.items h3{
+    text-align: center;
+}
 /* Exercise 5: About Us Section Styling (5 minutes) */
 /* Style the "About Us" section, including text alignment, font size, and background color. */
-
+.about{
+    text-align: center;
+    font-size: 18px;
+    background-color: burlywood;
+}
 /* Exercise 6: Contact Section Styling (10 minutes) */
 /* Style the "Contact Us" section, including the contact form, form inputs, and address display. */
-
+form{
+    text-align: center;
+}
+form input[type="text"], input[type="email"], textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+}
 /* Exercise 7: Footer Styling (5 minutes) */
 /* Style the footer section, including background color, text color, and alignment. */
-
+footer{
+    background-color: azure;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
 /* Exercise 8: Responsive Design (15 minutes) */
 /* Make the website responsive by using media queries to adjust styling for different screen sizes. */
